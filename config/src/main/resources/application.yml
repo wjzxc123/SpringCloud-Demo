@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/wjzxc123/Config-Repository
           search-paths: config-demo
-          username: wjzxc123
-          password: xxx12345
+          username:
+          password: 
 eureka:
   client:
     service-url:
