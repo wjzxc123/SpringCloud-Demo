@@ -1,0 +1,18 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wjzxc123/Config-Repository
+          search-paths: config-demo
+          username: wjzxc123
+          password: xxx12345
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://127.0.0.1:8761/eureka
+
