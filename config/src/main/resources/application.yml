@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/wjzxc123/Config-Repository
           search-paths: config-demo
-          username:
+          username: 
           password:
           default-label: master
           basedir: D:\\project\\learn\\SpringCloud-Demo\\src\\main\\resources
