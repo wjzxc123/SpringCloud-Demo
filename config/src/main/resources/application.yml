@@ -10,9 +10,22 @@ spring:
           uri: https://github.com/wjzxc123/Config-Repository
           search-paths: config-demo
           username:
-          password: 
+          password:
+          default-label: master
+          basedir: D:\\project\\learn\\SpringCloud-Demo\\src\\main\\resources
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 eureka:
   client:
     service-url:
       defaultZone:  http://127.0.0.1:8761/eureka
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

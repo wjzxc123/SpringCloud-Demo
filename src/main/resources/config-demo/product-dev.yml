@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: product-server
+server:
+  port: 8001
+  servlet:
+    application-display-name: randog1213313213
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
